@@ -1,0 +1,15 @@
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/Jolt.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/UnitTests.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/HelloWorld.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/DumpHuman.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/PerformanceTest.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/TestFramework.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/Samples.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/JoltViewer.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/test.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/install.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/eimantas/Repositories/JoltPhysics/Build/cmake-build-debug/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+62bdd1c7ea632915eb273bc2e4111839 /Users/eimantas/Repositories/JoltPhysics/Assets/Shaders/MTL/Shaders.metallib
+b0b37c4557a9674031c39fef7e2916aa FontShader.metal.air
+2d84272ef64d327b2f4028d2d85129b9 LineShader.metal.air
+40c11e1df0cba5e198ca35132364ddb3 TriangleShader.metal.air
+6f2857427985cad3b3c54188a7f7a8c9 UIShader.metal.air
