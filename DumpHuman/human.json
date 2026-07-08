@@ -4,7 +4,9 @@
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -583,10 +585,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 0
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -615,12 +620,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -636,7 +645,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319228528,
+                "ptr": 4359666224,
                 "subShapes": [
                     {
                         "position": [
@@ -653,7 +662,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.0730924978852272,
-                            "ptr": 48968614048,
+                            "material": null,
+                            "ptr": 30211637408,
                             "radius": 0.10588599741458893,
                             "type": 3,
                             "userData": 0
@@ -664,12 +674,15 @@
                 "type": 7,
                 "userData": 0
             },
-            "toParent": null
+            "toParent": null,
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -1248,10 +1261,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 1
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -1280,12 +1296,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -1301,7 +1321,7 @@
                 -0.023767489939928055
             ],
             "shape": {
-                "ptr": 4319239088,
+                "ptr": 4359666400,
                 "subShapes": [
                     {
                         "position": [
@@ -1319,7 +1339,8 @@
                             "bottomRadius": 0.05999999865889549,
                             "density": 1000.0,
                             "halfHeight": 0.14680349826812744,
-                            "ptr": 48968614128,
+                            "material": null,
+                            "ptr": 30211637488,
                             "topRadius": 0.07999999821186066,
                             "type": 4,
                             "userData": 0
@@ -1368,6 +1389,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.22887250781059265,
                     -0.9360234141349792,
@@ -1391,12 +1413,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -1975,10 +2000,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 2
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -2007,12 +2035,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -2028,7 +2060,7 @@
                 -0.023741766810417175
             ],
             "shape": {
-                "ptr": 4319243696,
+                "ptr": 4359670384,
                 "subShapes": [
                     {
                         "position": [
@@ -2046,7 +2078,8 @@
                             "bottomRadius": 0.03999999910593033,
                             "density": 1000.0,
                             "halfHeight": 0.16157150268554688,
-                            "ptr": 48968614208,
+                            "material": null,
+                            "ptr": 30211637568,
                             "topRadius": 0.05999999865889549,
                             "type": 4,
                             "userData": 0
@@ -2095,6 +2128,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.005234713200479746,
                     -0.5180373191833496,
@@ -2118,12 +2152,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -2702,10 +2739,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 3
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -2734,12 +2774,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -2755,7 +2799,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319244000,
+                "ptr": 4359666928,
                 "subShapes": [
                     {
                         "position": [
@@ -2777,7 +2821,8 @@
                                 0.03612900152802467,
                                 0.11246950179338455
                             ],
-                            "ptr": 48968538016,
+                            "material": null,
+                            "ptr": 4359637968,
                             "type": 1,
                             "userData": 0
                         },
@@ -2825,6 +2870,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.037725724279880524,
                     -0.5425190329551697,
@@ -2848,12 +2894,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -3432,10 +3481,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 4
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -3464,12 +3516,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -3485,7 +3541,7 @@
                 0.00029035357874818146
             ],
             "shape": {
-                "ptr": 4319244368,
+                "ptr": 4359671760,
                 "subShapes": [
                     {
                         "position": [
@@ -3503,7 +3559,8 @@
                             "bottomRadius": 0.05999999865889549,
                             "density": 1000.0,
                             "halfHeight": 0.14689549803733826,
-                            "ptr": 48968614288,
+                            "material": null,
+                            "ptr": 30211637648,
                             "topRadius": 0.07999999821186066,
                             "type": 4,
                             "userData": 0
@@ -3552,6 +3609,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.2768372893333435,
                     -0.9239053726196289,
@@ -3575,12 +3633,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -4159,10 +4220,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 5
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -4191,12 +4255,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -4212,7 +4280,7 @@
                 -0.0011398829519748688
             ],
             "shape": {
-                "ptr": 4319244736,
+                "ptr": 4359672128,
                 "subShapes": [
                     {
                         "position": [
@@ -4230,7 +4298,8 @@
                             "bottomRadius": 0.03999999910593033,
                             "density": 1000.0,
                             "halfHeight": 0.16157150268554688,
-                            "ptr": 48968614368,
+                            "material": null,
+                            "ptr": 30211637728,
                             "topRadius": 0.05999999865889549,
                             "type": 4,
                             "userData": 0
@@ -4279,6 +4348,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.009854820556938648,
                     -0.5179509520530701,
@@ -4302,12 +4372,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -4886,10 +4959,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 6
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -4918,12 +4994,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -4939,7 +5019,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319245104,
+                "ptr": 4359672496,
                 "subShapes": [
                     {
                         "position": [
@@ -4961,7 +5041,8 @@
                                 0.03612900152802467,
                                 0.11246950179338455
                             ],
-                            "ptr": 48968538128,
+                            "material": null,
+                            "ptr": 4359638080,
                             "type": 1,
                             "userData": 0
                         },
@@ -5009,6 +5090,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.010762892663478851,
                     -0.5437681078910828,
@@ -5032,12 +5114,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -5616,10 +5701,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 7
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -5648,12 +5736,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -5669,7 +5761,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319228304,
+                "ptr": 4359655120,
                 "subShapes": [
                     {
                         "position": [
@@ -5686,7 +5778,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.07517349720001221,
-                            "ptr": 48968614448,
+                            "material": null,
+                            "ptr": 30211637808,
                             "radius": 0.06882540136575699,
                             "type": 3,
                             "userData": 0
@@ -5735,6 +5828,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.00122399243991822,
                     0.9999992847442627,
@@ -5758,12 +5852,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -6342,10 +6439,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 8
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -6374,12 +6474,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -6395,7 +6499,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319246368,
+                "ptr": 4359673760,
                 "subShapes": [
                     {
                         "position": [
@@ -6412,7 +6516,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.06967850029468536,
-                            "ptr": 48968614528,
+                            "material": null,
+                            "ptr": 30211637888,
                             "radius": 0.06015679985284805,
                             "type": 3,
                             "userData": 0
@@ -6461,6 +6566,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.01704666018486023,
                     0.9998546242713928,
@@ -6484,12 +6590,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -7068,10 +7177,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 9
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -7100,12 +7212,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -7121,7 +7237,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319246672,
+                "ptr": 4359674064,
                 "subShapes": [
                     {
                         "position": [
@@ -7138,7 +7254,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.04493819922208786,
-                            "ptr": 48968614608,
+                            "material": null,
+                            "ptr": 30211637968,
                             "radius": 0.09763489663600922,
                             "type": 3,
                             "userData": 0
@@ -7187,6 +7304,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.005554453004151583,
                     0.9999845623970032,
@@ -7210,12 +7328,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -7794,10 +7915,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 10
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -7826,12 +7950,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -7847,7 +7975,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319246976,
+                "ptr": 4359674208,
                 "subShapes": [
                     {
                         "position": [
@@ -7864,7 +7992,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.02296620048582554,
-                            "ptr": 48968614688,
+                            "material": null,
+                            "ptr": 30211638048,
                             "radius": 0.09707780182361603,
                             "type": 3,
                             "userData": 0
@@ -7913,6 +8042,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.0004495070897974074,
                     0.9999997019767761,
@@ -7936,12 +8066,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -8520,10 +8653,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 11
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -8552,12 +8688,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -8573,7 +8713,7 @@
                 0.617812991142273
             ],
             "shape": {
-                "ptr": 4319247056,
+                "ptr": 4359674352,
                 "subShapes": [
                     {
                         "position": [
@@ -8590,7 +8730,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.01545185036957264,
-                            "ptr": 48968614768,
+                            "material": null,
+                            "ptr": 30211638128,
                             "radius": 0.05277850106358528,
                             "type": 3,
                             "userData": 0
@@ -8639,6 +8780,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.8984938859939575,
                     -0.10912298411130905,
@@ -8662,12 +8804,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -9246,10 +9391,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 12
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -9278,12 +9426,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -9299,7 +9451,7 @@
                 0.9217226505279541
             ],
             "shape": {
-                "ptr": 4319247136,
+                "ptr": 4359674496,
                 "subShapes": [
                     {
                         "position": [
@@ -9317,7 +9469,8 @@
                             "bottomRadius": 0.05000000074505806,
                             "density": 1000.0,
                             "halfHeight": 0.11773200333118439,
-                            "ptr": 48968614848,
+                            "material": null,
+                            "ptr": 30211638208,
                             "topRadius": 0.045513901859521866,
                             "type": 4,
                             "userData": 0
@@ -9366,6 +9519,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.8195598125457764,
                     -0.5459838509559631,
@@ -9389,12 +9543,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -9973,10 +10130,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 13
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -10005,12 +10165,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -10026,7 +10190,7 @@
                 0.9028721451759338
             ],
             "shape": {
-                "ptr": 4319247216,
+                "ptr": 4359674640,
                 "subShapes": [
                     {
                         "position": [
@@ -10044,7 +10208,8 @@
                             "bottomRadius": 0.02959289960563183,
                             "density": 1000.0,
                             "halfHeight": 0.10848300158977509,
-                            "ptr": 48968614928,
+                            "material": null,
+                            "ptr": 30211638288,
                             "topRadius": 0.03999999910593033,
                             "type": 4,
                             "userData": 0
@@ -10093,6 +10258,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.18491815030574799,
                     -0.18108637630939484,
@@ -10116,12 +10282,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -10700,10 +10869,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 14
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -10732,12 +10904,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -10753,7 +10929,7 @@
                 0.9028721451759338
             ],
             "shape": {
-                "ptr": 4319245248,
+                "ptr": 4359672640,
                 "subShapes": [
                     {
                         "position": [
@@ -10770,7 +10946,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.04369939863681793,
-                            "ptr": 48968615008,
+                            "material": null,
+                            "ptr": 30211638368,
                             "radius": 0.030253399163484573,
                             "type": 3,
                             "userData": 0
@@ -10819,6 +10996,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.6568639278411865,
                     -0.6420331597328186,
@@ -10842,12 +11020,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -11426,10 +11607,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 15
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -11458,12 +11642,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -11479,7 +11667,7 @@
                 0.14468109607696533
             ],
             "shape": {
-                "ptr": 4319245328,
+                "ptr": 4359672784,
                 "subShapes": [
                     {
                         "position": [
@@ -11496,7 +11684,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.015447299927473068,
-                            "ptr": 48968615088,
+                            "material": null,
+                            "ptr": 30211638448,
                             "radius": 0.052777599543333054,
                             "type": 3,
                             "userData": 0
@@ -11545,6 +11734,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.8876808881759644,
                     -0.18178199231624603,
@@ -11568,12 +11758,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -12152,10 +12345,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 16
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -12184,12 +12380,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -12205,7 +12405,7 @@
                 -0.016088897362351418
             ],
             "shape": {
-                "ptr": 4319245408,
+                "ptr": 4359672928,
                 "subShapes": [
                     {
                         "position": [
@@ -12223,7 +12423,8 @@
                             "bottomRadius": 0.05000000074505806,
                             "density": 1000.0,
                             "halfHeight": 0.1177314966917038,
-                            "ptr": 48968615168,
+                            "material": null,
+                            "ptr": 30211638528,
                             "topRadius": 0.045513901859521866,
                             "type": 4,
                             "userData": 0
@@ -12272,6 +12473,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.9178091287612915,
                     -0.3574918508529663,
@@ -12295,12 +12497,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -12879,10 +13084,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 17
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -12911,12 +13119,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -12932,7 +13144,7 @@
                 -0.18615438044071198
             ],
             "shape": {
-                "ptr": 4319245488,
+                "ptr": 4359673072,
                 "subShapes": [
                     {
                         "position": [
@@ -12950,7 +13162,8 @@
                             "bottomRadius": 0.02959289960563183,
                             "density": 1000.0,
                             "halfHeight": 0.10847549885511398,
-                            "ptr": 48968615248,
+                            "material": null,
+                            "ptr": 30211638608,
                             "topRadius": 0.03999999910593033,
                             "type": 4,
                             "userData": 0
@@ -12999,6 +13212,7 @@
                     "minT": -500.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.11806356906890869,
                     -0.18691441416740417,
@@ -13022,12 +13236,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -13606,10 +13823,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 18
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -13638,12 +13858,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -13659,7 +13883,7 @@
                 -0.18615438044071198
             ],
             "shape": {
-                "ptr": 4319245568,
+                "ptr": 4359673216,
                 "subShapes": [
                     {
                         "position": [
@@ -13676,7 +13900,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.04369939863681793,
-                            "ptr": 48968615328,
+                            "material": null,
+                            "ptr": 30211638688,
                             "radius": 0.030253399163484573,
                             "type": 3,
                             "userData": 0
@@ -13725,6 +13950,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.6573204398155212,
                     -0.6420596837997437,
@@ -13748,12 +13974,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -14332,10 +14561,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 19
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -14364,12 +14596,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -14385,7 +14621,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319245648,
+                "ptr": 4359673360,
                 "subShapes": [
                     {
                         "position": [
@@ -14402,7 +14638,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.02674875035881996,
-                            "ptr": 48968615408,
+                            "material": null,
+                            "ptr": 30211638768,
                             "radius": 0.054854899644851685,
                             "type": 3,
                             "userData": 0
@@ -14451,6 +14688,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.06147510185837746,
                     0.930858850479126,
@@ -14474,12 +14712,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -15058,10 +15299,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 20
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -15090,12 +15334,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -15111,7 +15359,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4319245728,
+                "ptr": 4359676576,
                 "subShapes": [
                     {
                         "position": [
@@ -15128,7 +15376,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.02515299990773201,
-                            "ptr": 48968615488,
+                            "material": null,
+                            "ptr": 30211638848,
                             "radius": 0.030493799597024918,
                             "type": 3,
                             "userData": 0
@@ -15150,7 +15399,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.02515299990773201,
-                            "ptr": 48968615568,
+                            "material": null,
+                            "ptr": 30211638928,
                             "radius": 0.030493799597024918,
                             "type": 3,
                             "userData": 0
@@ -15199,6 +15449,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.074867844581604,
                     0.9971597194671631,
@@ -15222,12 +15473,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -15806,10 +16060,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 21
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -15838,12 +16095,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -15859,7 +16120,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 48968613888,
+                "ptr": 30211637248,
                 "subShapes": [
                     {
                         "position": [
@@ -15876,7 +16137,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.04757679998874664,
-                            "ptr": 48968615648,
+                            "material": null,
+                            "ptr": 30211639008,
                             "radius": 0.026814499869942665,
                             "type": 3,
                             "userData": 0
@@ -15898,7 +16160,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.04757679998874664,
-                            "ptr": 48968615728,
+                            "material": null,
+                            "ptr": 30211639088,
                             "radius": 0.026814499869942665,
                             "type": 3,
                             "userData": 0
@@ -15947,6 +16210,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     0.01929709129035473,
                     0.9997535347938538,
@@ -15970,12 +16234,15 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         },
         {
             "allowDynamicOrKinematic": false,
             "allowSleeping": true,
+            "allowedDOFs": 63,
             "angularDamping": 0.05000000074505806,
+            "applyGyroscopicForce": false,
             "collGroup": {
                 "filter": [
                     [
@@ -16554,10 +16821,13 @@
                         false
                     ]
                 ],
-                "filterPtr": 48968581120,
+                "filterPtr": 4359655632,
                 "groupID": 0,
+                "numSubGroups": 23,
                 "subGroupID": 22
             },
+            "collideKinematicVsNonDynamic": false,
+            "enhancedInternalEdgeRemoval": false,
             "friction": 1.0,
             "gravityFactor": 1.0,
             "inertia": [
@@ -16586,12 +16856,16 @@
                     0.0
                 ]
             ],
+            "inertiaMultiplier": 1.0,
+            "isSensor": false,
             "linearDamping": 0.05000000074505806,
             "mass": 0.0,
             "maxAngularVelocity": 47.1238899230957,
             "maxLinearVelocity": 500.0,
             "motionQuality": 0,
             "motionType": 2,
+            "numPositionStepsOverride": 0,
+            "numVelocityStepsOverride": 0,
             "objectLayer": 4,
             "overrideMass": 0,
             "position": [
@@ -16607,7 +16881,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 48968613968,
+                "ptr": 30211637328,
                 "subShapes": [
                     {
                         "position": [
@@ -16624,7 +16898,8 @@
                         "shape": {
                             "density": 1000.0,
                             "halfHeight": 0.01833364926278591,
-                            "ptr": 48968615808,
+                            "material": null,
+                            "ptr": 30211639168,
                             "radius": 0.0832396000623703,
                             "type": 3,
                             "userData": 0
@@ -16673,6 +16948,7 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
+                "swingType": 0,
                 "twist1": [
                     -0.029913460835814476,
                     0.9583644866943359,
@@ -16696,7 +16972,8 @@
                 },
                 "type": 6,
                 "velSteps": 0
-            }
+            },
+            "useManifoldReduction": true
         }
     ],
     "skeleton": [

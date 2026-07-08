@@ -911,6 +911,7 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/ARMNeon.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Array.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Atomics.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/ByteBuffer.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Color.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Core.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/FPControlWord.h \
@@ -926,6 +927,7 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/RTTI.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Reference.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Result.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/STLAlignedAllocator.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/STLAllocator.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/StaticArray.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/StreamIn.h \
@@ -952,11 +954,13 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Float2.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Float3.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Float4.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/GaussianElimination.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/HalfFloat.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Mat44.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Mat44.inl \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Math.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/MathTypes.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Matrix.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Quat.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Quat.inl \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Real.h \
@@ -968,6 +972,7 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Vec3.inl \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Vec4.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Vec4.inl \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Vector.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/ObjectStream/ObjectStream.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/ObjectStream/ObjectStreamIn.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/ObjectStream/ObjectStreamOut.h \
@@ -994,25 +999,43 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/GroupFilterTable.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/ObjectLayer.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/PhysicsMaterial.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/PhysicsMaterialSimple.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/BoxShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/CapsuleShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/CompoundShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/ConvexHullShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/ConvexShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/CylinderShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/DecoratedShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/MeshShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/OffsetCenterOfMassShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/RotatedTranslatedShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/ScaleHelpers.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/Shape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/SphereShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/StaticCompoundShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/SubShapeID.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/TaperedCapsuleShape.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/ShapeFilter.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/SortReverseAndStore.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/TransformedShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConeConstraint.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/Constraint.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/AngleConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/AxisConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/DualAxisConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/HingeRotationConstraintPart.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/PointConstraintPart.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/RotationEulerConstraintPart.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/SpringPart.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/SwingTwistConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/DistanceConstraint.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/FixedConstraint.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/HingeConstraint.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/MotorSettings.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/PointConstraint.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SixDOFConstraint.h \
+  /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SliderConstraint.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SpringSettings.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SwingTwistConstraint.h \
   /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/TwoBodyConstraint.h \
@@ -1048,11 +1071,25 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SpringSettings.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SliderConstraint.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/HingeConstraint.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/FixedConstraint.h:
+
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/SwingTwistConstraintPart.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/RotationEulerConstraintPart.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/PointConstraintPart.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/HingeRotationConstraintPart.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/DualAxisConstraintPart.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConstraintPart/AxisConstraintPart.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/ConeConstraint.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/TransformedShape.h:
 
@@ -1062,11 +1099,21 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/StaticCompoundShape.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/SphereShape.h:
+
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/ScaleHelpers.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/RotatedTranslatedShape.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/OffsetCenterOfMassShape.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/ConvexHullShape.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/CompoundShape.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/BoxShape.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/PhysicsMaterialSimple.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/PhysicsMaterial.h:
 
@@ -1112,6 +1159,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Quat.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Matrix.h:
+
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Mat44.inl:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Math/HalfFloat.h:
@@ -1150,6 +1199,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/StaticArray.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Core/STLAlignedAllocator.h:
+
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Reference.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/RISCVVector.h:
@@ -1167,6 +1218,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/FPControlWord.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Core.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Core/ByteBuffer.h:
 
 /Users/eimantas/Repositories/JoltPhysics/Jolt/Core/Array.h:
 
@@ -1287,6 +1340,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/PointConstraint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h:
 
@@ -1610,6 +1665,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/SixDOFConstraint.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
@@ -1625,6 +1682,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/DecoratedShape.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
 
@@ -2520,6 +2579,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/MeshShape.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
@@ -2587,6 +2648,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Constraints/DistanceConstraint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
@@ -2824,6 +2887,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h:
 
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Math/GaussianElimination.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
@@ -2889,6 +2954,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/set.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Physics/Collision/Shape/CylinderShape.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
@@ -3057,6 +3124,8 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/desugars_to.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
+
+/Users/eimantas/Repositories/JoltPhysics/Jolt/Math/Vector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h:
 
