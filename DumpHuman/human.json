@@ -585,9 +585,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 0
             },
             "collideKinematicVsNonDynamic": false,
@@ -645,7 +644,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359666224,
+                "ptr": 4388805856,
                 "subShapes": [
                     {
                         "position": [
@@ -663,7 +662,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.0730924978852272,
                             "material": null,
-                            "ptr": 30211637408,
+                            "ptr": 4388777232,
                             "radius": 0.10588599741458893,
                             "type": 3,
                             "userData": 0
@@ -1261,9 +1260,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 1
             },
             "collideKinematicVsNonDynamic": false,
@@ -1321,7 +1319,7 @@
                 -0.023767489939928055
             ],
             "shape": {
-                "ptr": 4359666400,
+                "ptr": 4388806128,
                 "subShapes": [
                     {
                         "position": [
@@ -1340,7 +1338,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.14680349826812744,
                             "material": null,
-                            "ptr": 30211637488,
+                            "ptr": 31423856640,
                             "topRadius": 0.07999999821186066,
                             "type": 4,
                             "userData": 0
@@ -1389,7 +1387,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.22887250781059265,
                     -0.9360234141349792,
@@ -2000,9 +1997,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 2
             },
             "collideKinematicVsNonDynamic": false,
@@ -2060,7 +2056,7 @@
                 -0.023741766810417175
             ],
             "shape": {
-                "ptr": 4359670384,
+                "ptr": 4388806304,
                 "subShapes": [
                     {
                         "position": [
@@ -2079,7 +2075,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.16157150268554688,
                             "material": null,
-                            "ptr": 30211637568,
+                            "ptr": 31423856720,
                             "topRadius": 0.05999999865889549,
                             "type": 4,
                             "userData": 0
@@ -2128,7 +2124,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.005234713200479746,
                     -0.5180373191833496,
@@ -2739,9 +2734,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 3
             },
             "collideKinematicVsNonDynamic": false,
@@ -2799,7 +2793,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359666928,
+                "ptr": 4388779664,
                 "subShapes": [
                     {
                         "position": [
@@ -2822,7 +2816,7 @@
                                 0.11246950179338455
                             ],
                             "material": null,
-                            "ptr": 4359637968,
+                            "ptr": 31423764272,
                             "type": 1,
                             "userData": 0
                         },
@@ -2870,7 +2864,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.037725724279880524,
                     -0.5425190329551697,
@@ -3481,9 +3474,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 4
             },
             "collideKinematicVsNonDynamic": false,
@@ -3541,7 +3533,7 @@
                 0.00029035357874818146
             ],
             "shape": {
-                "ptr": 4359671760,
+                "ptr": 4388810560,
                 "subShapes": [
                     {
                         "position": [
@@ -3560,7 +3552,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.14689549803733826,
                             "material": null,
-                            "ptr": 30211637648,
+                            "ptr": 31423856800,
                             "topRadius": 0.07999999821186066,
                             "type": 4,
                             "userData": 0
@@ -3609,7 +3601,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.2768372893333435,
                     -0.9239053726196289,
@@ -4220,9 +4211,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 5
             },
             "collideKinematicVsNonDynamic": false,
@@ -4280,7 +4270,7 @@
                 -0.0011398829519748688
             ],
             "shape": {
-                "ptr": 4359672128,
+                "ptr": 4388810864,
                 "subShapes": [
                     {
                         "position": [
@@ -4299,7 +4289,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.16157150268554688,
                             "material": null,
-                            "ptr": 30211637728,
+                            "ptr": 31423856880,
                             "topRadius": 0.05999999865889549,
                             "type": 4,
                             "userData": 0
@@ -4348,7 +4338,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.009854820556938648,
                     -0.5179509520530701,
@@ -4959,9 +4948,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 6
             },
             "collideKinematicVsNonDynamic": false,
@@ -5019,7 +5007,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359672496,
+                "ptr": 4388811232,
                 "subShapes": [
                     {
                         "position": [
@@ -5042,7 +5030,7 @@
                                 0.11246950179338455
                             ],
                             "material": null,
-                            "ptr": 4359638080,
+                            "ptr": 31423764384,
                             "type": 1,
                             "userData": 0
                         },
@@ -5090,7 +5078,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.010762892663478851,
                     -0.5437681078910828,
@@ -5701,9 +5688,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 7
             },
             "collideKinematicVsNonDynamic": false,
@@ -5761,7 +5747,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359655120,
+                "ptr": 4388778576,
                 "subShapes": [
                     {
                         "position": [
@@ -5779,7 +5765,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.07517349720001221,
                             "material": null,
-                            "ptr": 30211637808,
+                            "ptr": 31423856960,
                             "radius": 0.06882540136575699,
                             "type": 3,
                             "userData": 0
@@ -5828,7 +5814,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.00122399243991822,
                     0.9999992847442627,
@@ -6439,9 +6424,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 8
             },
             "collideKinematicVsNonDynamic": false,
@@ -6499,7 +6483,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359673760,
+                "ptr": 4388812496,
                 "subShapes": [
                     {
                         "position": [
@@ -6517,7 +6501,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.06967850029468536,
                             "material": null,
-                            "ptr": 30211637888,
+                            "ptr": 31423857040,
                             "radius": 0.06015679985284805,
                             "type": 3,
                             "userData": 0
@@ -6566,7 +6550,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.01704666018486023,
                     0.9998546242713928,
@@ -7177,9 +7160,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 9
             },
             "collideKinematicVsNonDynamic": false,
@@ -7237,7 +7219,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359674064,
+                "ptr": 4388812800,
                 "subShapes": [
                     {
                         "position": [
@@ -7255,7 +7237,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.04493819922208786,
                             "material": null,
-                            "ptr": 30211637968,
+                            "ptr": 31423857120,
                             "radius": 0.09763489663600922,
                             "type": 3,
                             "userData": 0
@@ -7304,7 +7286,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.005554453004151583,
                     0.9999845623970032,
@@ -7915,9 +7896,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 10
             },
             "collideKinematicVsNonDynamic": false,
@@ -7975,7 +7955,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359674208,
+                "ptr": 4388813168,
                 "subShapes": [
                     {
                         "position": [
@@ -7993,7 +7973,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.02296620048582554,
                             "material": null,
-                            "ptr": 30211638048,
+                            "ptr": 31423857200,
                             "radius": 0.09707780182361603,
                             "type": 3,
                             "userData": 0
@@ -8042,7 +8022,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.0004495070897974074,
                     0.9999997019767761,
@@ -8653,9 +8632,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 11
             },
             "collideKinematicVsNonDynamic": false,
@@ -8713,7 +8691,7 @@
                 0.617812991142273
             ],
             "shape": {
-                "ptr": 4359674352,
+                "ptr": 4388813312,
                 "subShapes": [
                     {
                         "position": [
@@ -8731,7 +8709,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.01545185036957264,
                             "material": null,
-                            "ptr": 30211638128,
+                            "ptr": 31423857280,
                             "radius": 0.05277850106358528,
                             "type": 3,
                             "userData": 0
@@ -8780,7 +8758,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.8984938859939575,
                     -0.10912298411130905,
@@ -9391,9 +9368,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 12
             },
             "collideKinematicVsNonDynamic": false,
@@ -9451,7 +9427,7 @@
                 0.9217226505279541
             ],
             "shape": {
-                "ptr": 4359674496,
+                "ptr": 4388813456,
                 "subShapes": [
                     {
                         "position": [
@@ -9470,7 +9446,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.11773200333118439,
                             "material": null,
-                            "ptr": 30211638208,
+                            "ptr": 31423857360,
                             "topRadius": 0.045513901859521866,
                             "type": 4,
                             "userData": 0
@@ -9519,7 +9495,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.8195598125457764,
                     -0.5459838509559631,
@@ -10130,9 +10105,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 13
             },
             "collideKinematicVsNonDynamic": false,
@@ -10190,7 +10164,7 @@
                 0.9028721451759338
             ],
             "shape": {
-                "ptr": 4359674640,
+                "ptr": 4388813600,
                 "subShapes": [
                     {
                         "position": [
@@ -10209,7 +10183,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.10848300158977509,
                             "material": null,
-                            "ptr": 30211638288,
+                            "ptr": 31423857440,
                             "topRadius": 0.03999999910593033,
                             "type": 4,
                             "userData": 0
@@ -10258,7 +10232,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.18491815030574799,
                     -0.18108637630939484,
@@ -10869,9 +10842,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 14
             },
             "collideKinematicVsNonDynamic": false,
@@ -10929,7 +10901,7 @@
                 0.9028721451759338
             ],
             "shape": {
-                "ptr": 4359672640,
+                "ptr": 4388811376,
                 "subShapes": [
                     {
                         "position": [
@@ -10947,7 +10919,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.04369939863681793,
                             "material": null,
-                            "ptr": 30211638368,
+                            "ptr": 31423857520,
                             "radius": 0.030253399163484573,
                             "type": 3,
                             "userData": 0
@@ -10996,7 +10968,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.6568639278411865,
                     -0.6420331597328186,
@@ -11607,9 +11578,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 15
             },
             "collideKinematicVsNonDynamic": false,
@@ -11667,7 +11637,7 @@
                 0.14468109607696533
             ],
             "shape": {
-                "ptr": 4359672784,
+                "ptr": 4388811520,
                 "subShapes": [
                     {
                         "position": [
@@ -11685,7 +11655,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.015447299927473068,
                             "material": null,
-                            "ptr": 30211638448,
+                            "ptr": 31423857600,
                             "radius": 0.052777599543333054,
                             "type": 3,
                             "userData": 0
@@ -11734,7 +11704,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.8876808881759644,
                     -0.18178199231624603,
@@ -12345,9 +12314,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 16
             },
             "collideKinematicVsNonDynamic": false,
@@ -12405,7 +12373,7 @@
                 -0.016088897362351418
             ],
             "shape": {
-                "ptr": 4359672928,
+                "ptr": 4388811664,
                 "subShapes": [
                     {
                         "position": [
@@ -12424,7 +12392,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.1177314966917038,
                             "material": null,
-                            "ptr": 30211638528,
+                            "ptr": 31423857680,
                             "topRadius": 0.045513901859521866,
                             "type": 4,
                             "userData": 0
@@ -12473,7 +12441,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.9178091287612915,
                     -0.3574918508529663,
@@ -13084,9 +13051,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 17
             },
             "collideKinematicVsNonDynamic": false,
@@ -13144,7 +13110,7 @@
                 -0.18615438044071198
             ],
             "shape": {
-                "ptr": 4359673072,
+                "ptr": 4388811808,
                 "subShapes": [
                     {
                         "position": [
@@ -13163,7 +13129,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.10847549885511398,
                             "material": null,
-                            "ptr": 30211638608,
+                            "ptr": 31423857760,
                             "topRadius": 0.03999999910593033,
                             "type": 4,
                             "userData": 0
@@ -13212,7 +13178,6 @@
                     "minT": -500.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.11806356906890869,
                     -0.18691441416740417,
@@ -13823,9 +13788,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 18
             },
             "collideKinematicVsNonDynamic": false,
@@ -13883,7 +13847,7 @@
                 -0.18615438044071198
             ],
             "shape": {
-                "ptr": 4359673216,
+                "ptr": 4388811888,
                 "subShapes": [
                     {
                         "position": [
@@ -13901,7 +13865,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.04369939863681793,
                             "material": null,
-                            "ptr": 30211638688,
+                            "ptr": 31423857840,
                             "radius": 0.030253399163484573,
                             "type": 3,
                             "userData": 0
@@ -13950,7 +13914,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.6573204398155212,
                     -0.6420596837997437,
@@ -14561,9 +14524,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 19
             },
             "collideKinematicVsNonDynamic": false,
@@ -14621,7 +14583,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359673360,
+                "ptr": 4388811968,
                 "subShapes": [
                     {
                         "position": [
@@ -14639,7 +14601,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.02674875035881996,
                             "material": null,
-                            "ptr": 30211638768,
+                            "ptr": 31423857920,
                             "radius": 0.054854899644851685,
                             "type": 3,
                             "userData": 0
@@ -14688,7 +14650,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.06147510185837746,
                     0.930858850479126,
@@ -15299,9 +15260,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 20
             },
             "collideKinematicVsNonDynamic": false,
@@ -15359,7 +15319,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 4359676576,
+                "ptr": 4388812048,
                 "subShapes": [
                     {
                         "position": [
@@ -15377,7 +15337,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.02515299990773201,
                             "material": null,
-                            "ptr": 30211638848,
+                            "ptr": 31423858000,
                             "radius": 0.030493799597024918,
                             "type": 3,
                             "userData": 0
@@ -15400,7 +15360,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.02515299990773201,
                             "material": null,
-                            "ptr": 30211638928,
+                            "ptr": 31423858080,
                             "radius": 0.030493799597024918,
                             "type": 3,
                             "userData": 0
@@ -15449,7 +15409,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.074867844581604,
                     0.9971597194671631,
@@ -16060,9 +16019,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 21
             },
             "collideKinematicVsNonDynamic": false,
@@ -16120,7 +16078,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 30211637248,
+                "ptr": 4388812128,
                 "subShapes": [
                     {
                         "position": [
@@ -16138,7 +16096,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.04757679998874664,
                             "material": null,
-                            "ptr": 30211639008,
+                            "ptr": 31423858160,
                             "radius": 0.026814499869942665,
                             "type": 3,
                             "userData": 0
@@ -16161,7 +16119,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.04757679998874664,
                             "material": null,
-                            "ptr": 30211639088,
+                            "ptr": 31423858240,
                             "radius": 0.026814499869942665,
                             "type": 3,
                             "userData": 0
@@ -16210,7 +16168,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     0.01929709129035473,
                     0.9997535347938538,
@@ -16821,9 +16778,8 @@
                         false
                     ]
                 ],
-                "filterPtr": 4359655632,
+                "filterPtr": 31423840256,
                 "groupID": 0,
-                "numSubGroups": 23,
                 "subGroupID": 22
             },
             "collideKinematicVsNonDynamic": false,
@@ -16881,7 +16837,7 @@
                 0.0
             ],
             "shape": {
-                "ptr": 30211637328,
+                "ptr": 4388815536,
                 "subShapes": [
                     {
                         "position": [
@@ -16899,7 +16855,7 @@
                             "density": 1000.0,
                             "halfHeight": 0.01833364926278591,
                             "material": null,
-                            "ptr": 30211639168,
+                            "ptr": 31423858320,
                             "radius": 0.0832396000623703,
                             "type": 3,
                             "userData": 0
@@ -16948,7 +16904,6 @@
                     "minT": -1000.0,
                     "mode": 0
                 },
-                "swingType": 0,
                 "twist1": [
                     -0.029913460835814476,
                     0.9583644866943359,
