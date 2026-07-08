@@ -184,6 +184,16 @@ json ExportRagdoll(const RagdollSettings* r) {
         pj["maxAngularVelocity"] = part.mMaxAngularVelocity;
         pj["gravityFactor"] = part.mGravityFactor;
         
+        pj["allowedDOFs"] = (int)part.mAllowedDOFs;
+        pj["isSensor"] = part.mIsSensor;
+        pj["collideKinematicVsNonDynamic"] = part.mCollideKinematicVsNonDynamic;
+        pj["useManifoldReduction"] = part.mUseManifoldReduction;
+        pj["applyGyroscopicForce"] = part.mApplyGyroscopicForce;
+        pj["enhancedInternalEdgeRemoval"] = part.mEnhancedInternalEdgeRemoval;
+        pj["numVelocityStepsOverride"] = part.mNumVelocityStepsOverride;
+        pj["numPositionStepsOverride"] = part.mNumPositionStepsOverride;
+        pj["inertiaMultiplier"] = part.mInertiaMultiplier;
+        
         pj["overrideMass"] = (int)part.mOverrideMassProperties;
         pj["mass"] = part.mMassPropertiesOverride.mMass;
         
@@ -350,6 +360,16 @@ Ref<RagdollSettings> ImportRagdoll(const json& j) {
         part.mMaxLinearVelocity = pj["maxLinearVelocity"];
         part.mMaxAngularVelocity = pj["maxAngularVelocity"];
         part.mGravityFactor = pj["gravityFactor"];
+        
+        part.mAllowedDOFs = (EAllowedDOFs)pj["allowedDOFs"].get<int>();
+        part.mIsSensor = pj["isSensor"];
+        part.mCollideKinematicVsNonDynamic = pj["collideKinematicVsNonDynamic"];
+        part.mUseManifoldReduction = pj["useManifoldReduction"];
+        part.mApplyGyroscopicForce = pj["applyGyroscopicForce"];
+        part.mEnhancedInternalEdgeRemoval = pj["enhancedInternalEdgeRemoval"];
+        part.mNumVelocityStepsOverride = pj["numVelocityStepsOverride"];
+        part.mNumPositionStepsOverride = pj["numPositionStepsOverride"];
+        part.mInertiaMultiplier = pj["inertiaMultiplier"];
         
         part.mOverrideMassProperties = (EOverrideMassProperties)pj["overrideMass"].get<int>();
         part.mMassPropertiesOverride.mMass = pj["mass"];
