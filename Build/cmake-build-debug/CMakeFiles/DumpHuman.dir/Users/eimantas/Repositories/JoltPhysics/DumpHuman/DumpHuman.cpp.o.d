@@ -982,6 +982,34 @@ CMakeFiles/DumpHuman.dir/Users/eimantas/Repositories/JoltPhysics/DumpHuman/DumpH
   /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Skeleton/SkeletonPose.h \
   /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Skeleton/SkeletalAnimation.h \
   /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/EActivation.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/CapsuleShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/ConvexShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/PhysicsMaterial.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/TaperedCapsuleShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Renderer/DebugRenderer.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Math/Float2.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/BoxShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/PhysicsSettings.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/StaticCompoundShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/CompoundShape.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/Shape/ScaleHelpers.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/SortReverseAndStore.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Math/HalfFloat.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Core/FPException.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Core/FPControlWord.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Collision/GroupFilterTable.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/SwingTwistConstraint.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/MotorSettings.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/SpringSettings.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/ConstraintPart/PointConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/StateRecorder.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Core/StreamIn.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Core/StreamOut.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/ConstraintPart/AngleConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/ConstraintPart/SpringPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/ConstraintPart/SwingTwistConstraintPart.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Geometry/Ellipse.h \
+  /Users/eimantas/Repositories/JoltPhysics/Build/../Jolt/Physics/Constraints/ConstraintPart/RotationEulerConstraintPart.h \
   /Users/eimantas/Repositories/JoltPhysics/Build/../DumpHuman/nlohmann/json.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
